@@ -1,0 +1,81 @@
+<!--EJERCICIOS LENGUAJE DE MARCAS-->
+
+
+<!--FORMULARIO-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+  
+      <title>Formulario de pizzeria</title>
+      <h2>Pizzeria Pizza Hut</h2>
+      <img src="images/pizzahut.png" width="200"; height="100";>
+    </head>
+<body>
+
+    <h3>¡Rellene y en 20 minutos estaremos en su casa!</h3>
+
+    <form>
+    <fieldset>
+        <legend>Datos del cliente</legend>
+    <label for="fname">Nombre:</label><br>
+      <input type="text" id="fname" name="fname" value=""><br>
+      
+      <label for="lname">Apellidos:</label><br>
+      <input type="text" id="lname" name="lname" value=""><br>
+      
+      <label for="Celectr">Domicilio:</label><br>
+      <input type="email" id="Celectr" value="" required = "Campo obligatorio"><br>
+      
+      <label for="tlf">Teléfono:</label><br>
+      <input type="tel" id="tlf" maxlength="9" value="" required = "Campo obligatorio"><br>    
+    </fieldset>
+    
+    
+    <fieldset>
+        <legend>¿Tipo de pizza?</legend><br>
+
+        <label for="verific">Carbonara</label>
+      <input type="radio" value=""> <br>
+      <label for="verific">Jamón de york y queso</label>
+      <input type="radio" value=""> <br>
+      <label for="verific">Barbacoa</label>
+      <input type="radio" value=""> <br>
+      <label for="verific">Hawaiana</label>
+      <input type="radio" value=""> <br>
+      <label for="verific">4 Quesos</label>
+      <input type="radio" value="">
+    </fieldset>
+   
+   
+    <fieldset>
+        <legend>Tamaño de pizza</legend>
+        
+    <select size="3"> 
+    
+    <option value="familiar">Familiar</option>
+    <option value="mediana">Mediana</option>
+    <option value="pequeña">Pequeña</option>
+
+    </select>
+
+    </fieldset>
+
+    <fieldset>
+      <label for="Celectr">Correo electrónico:</label><br>
+      <input type="email" id="Celectr" value=""><br>  
+      <label for="verific">¿Usted desea recibir notificaciones en su correo acerca de las ofertas?</label>
+      <input type="checkbox" value="">
+      
+    </fieldset>
+    
+
+
+      
+      <br> <br>
+      
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Reiniciar">
+
+    </form>
+</body>
