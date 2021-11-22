@@ -1,0 +1,11 @@
+#div1, #div2, #div3{
+float: left;
+margin: 10px;
+}
+#div4, #div5, #div6{
+float: left;
+margin: 10px;
+}
+p{
+    text-align: center;
+}
