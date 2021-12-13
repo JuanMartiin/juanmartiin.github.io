@@ -1,0 +1,183 @@
+/*Proyecto LMS*/
+
+
+/*Selector Universal*/
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+/*Arriba*/
+div[id="arriba"] {
+    width: "100%";
+    background-color: rgba(0, 0, 0, 0.644);
+}
+
+/*Cuerpo*/
+body {
+    background-color: rgb(95, 134, 160);
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*A3 ASESOR*/
+h1 {
+    text-align: center;
+    color: orange;
+}
+
+/*Menu*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: rgb(168, 168, 168);
+}
+
+li {
+    float: left;
+    width: 25%;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+}
+
+li:hover {
+    background-color: lavender;
+}
+
+div {
+    margin: auto;
+    width: 85%;
+}
+
+/*Texto central*/
+p {
+    padding: 5px;
+    color: whitesmoke;
+}
+
+h2[id="centrar"] {
+    text-align: center;
+    color: whitesmoke;
+}
+
+p[id="columna1"] {
+    max-width: 32.5%;
+    float: left;
+    text-align: justify;
+}
+
+p[id="columna2"] {
+    max-width: 32.5%;
+    float: left;
+    padding-left: 5%;
+    text-align: justify;
+}
+
+p[id="derecha"] {
+    float: right;
+}
+
+
+/*Pie*/
+footer {
+    clear: both;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 175px;
+}
+
+div[id="1"] {
+    clear: both;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+div[id="2"] {
+    clear: both;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+div[id="3"] {
+    clear: both;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+
+/*Quienes somos*/
+
+p[id="quienesSomos"] {
+    float: left;
+    max-width: 50%;
+    text-align: justify;
+}
+
+p[id="footer2"] {
+    clear: both;
+    max-width: 90%;
+    font-weight: bold;
+    color: black;
+}
+
+/*Galería*/
+
+div[id="div1"] {
+    float: left;
+    margin: 6.33%;
+}
+
+div[id="div2"] {
+    float: left;
+    margin: 6.33%;
+}
+
+div[id="div3"] {
+    float: left;
+    margin: 6.33%;
+}
+
+div[id="div4"] {
+    clear: both;
+    float: left;
+    margin: 6.33%;
+}
+
+div[id="div5"] {
+    float: left;
+    margin: 6.33%;
+}
+
+div[id="div6"] {
+    float: left;
+    margin: 6.33%;
+}
+
+p {
+    text-align: center;
+}
+
+/*Formulario*/
+
+form[id="izquierda1"] {
+    float: left;
+}
+
+form[id="derecha1"] {
+    float: left;
+}
