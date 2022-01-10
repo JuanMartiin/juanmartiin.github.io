@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+  }
+
+.columna {
+    flex: 32%;
+    max-width: 32%;
+    padding: 0 2px;
+  }
+.fila {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 2px;
+  }
