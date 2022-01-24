@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Grid</title>
+
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-gap: 15px;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            width: 70%;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+        .card1:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .container {
+            padding: 2px 16px;
+        }
+        .card1{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            width: 70%;
+            grid-column: 1 / span 2;
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="grid">
+        <div class="card1">
+            <img src="images/descarga.jfif" alt="Avatar" style="width:100%">
+          <div class="item1">
+            <div class="container">
+                <h4><b>Juan</b></h4> 
+                  <p>Jugador profesional <br>Brawl Stars</p> 
+              </div>
+          </div>  
+        </div>
+        
+        <div class="card">
+            <img src="images/descarga 1.png" alt="Avatar" style="width:100%">
+            <div class="item2">
+              <div class="container">
+                  <h4><b>Celia</b></h4> 
+                  <p>Estudiante de quimica <br> Trabaja en los Pollos Hermanos</p> 
+                </div>
+            </div>  
+          </div>
+
+        <div class="card">
+            <img src="images/descarga 2.png" alt="Avatar" style="width:100%">
+          <div class="item3">
+            <div class="container">
+                <h4><b>Nabil</b></h4> 
+                <p>Mecanico de Lamborghini</p> 
+              </div>
+          </div>  
+        </div>
+
+        <div class="card">
+            <img src="images/descarga 3.png" alt="Avatar" style="width:100%">
+          <div class="item4">
+            <div class="container">
+                <h4><b>Marcos</b></h4> 
+                <p>Culturista y fisio</p> 
+              </div>
+          </div>  
+        </div>
+
+        <div class="card">
+            <img src="images/descarga 4.jfif" alt="Avatar" style="width:100%">
+          <div class="item5">
+            <div class="container">
+                <h4><b>Gustavo</b></h4> 
+                <p>Futbolista RompePiernas</p> 
+              </div>
+          </div>  
+        </div>
+
+        <div class="card">
+            <img src="images/descarga 5.png" alt="Avatar" style="width:100%">
+          <div class="item6">
+            <div class="container">
+                <h4><b>Amanda</b></h4> 
+                <p>Criminologa y sexologa</p> 
+              </div>
+          </div>  
+        </div>
+
+        <div class="card">
+            <img src="images/img_avatar.png" alt="Avatar" style="width:100%">
+          <div class="item7">
+            <div class="container">
+                <h4><b>Alvaro</b></h4> 
+                <p>Militar <br>Defensor de la patria</p> 
+              </div>
+          </div>  
+        </div>
+
+    </div>
+
+</body>
+
+</html>
